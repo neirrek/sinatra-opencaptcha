@@ -8,7 +8,7 @@ See http://www.opencaptcha.com for more information about OpenCaptcha
 Installation
 ------------
 
-gem install sinatra-captcha
+gem install sinatra-opencaptcha
 
 Use example
 -----------
