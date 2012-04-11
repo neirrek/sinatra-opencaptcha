@@ -1,0 +1,5 @@
+<!-- OpenCaptcha [Begin] -->
+<p><img src="http://www.opencaptcha.com/img/<%= image_name %>" width="<%= width %>" height=\"<%= height %>" alt="captcha"/>
+<input type="hidden" name="open_captcha_image_name" value="<%= image_name %>"/></p>
+<p><label for="open_captcha_answer"><%= answer_input_label %></label><input<%= answer_input_class ? " class=\"#{answer_input_class}\"" : "" %> type="text" id="open_captcha_answer" name="open_captcha_answer"/></p>
+<!-- OpenCaptcha [End] -->
