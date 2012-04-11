@@ -22,7 +22,7 @@ Use example
 
     post '/' do
       if open_captcha_valid?
-        "Welcome, dear #{params[:name]!"
+        "Welcome, dear #{params[:name]}!"
       else
         "Go away, bloody spamming machine!"
       end
