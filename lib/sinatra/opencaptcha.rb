@@ -12,10 +12,16 @@ module Sinatra
 
     VERSION = "1.0.0"
     
-    @@default_opts = { :width => 110, :height => 50, :show_answer_input => true, :answer_input_label => 'Your answer: ', :answer_input_class => nil }
+    @@default_opts = {
+      :width => 110,
+      :height => 50,
+      :show_answer_input => true,
+      :answer_input_label => 'Your answer: ',
+      :answer_input_class => nil
+    }
     
     # A utility method to set the http proxy to be used
-    # for connecting to the OpenCatcha server
+    # for connecting to the OpenCatcha server.
     #
     def self.set_proxy(proxy_url)
       RestClient.proxy = proxy_url
