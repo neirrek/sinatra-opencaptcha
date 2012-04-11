@@ -13,7 +13,7 @@ gem install sinatra-opencaptcha
 Use example
 -----------
 
-    require 'sinatra/base'
+    require 'sinatra'
     require 'sinatra/opencaptcha'
 
     get '/' do
