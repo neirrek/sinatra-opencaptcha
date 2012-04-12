@@ -1,17 +1,17 @@
 Sinatra-OpenCaptcha
 ===================
 
-A Sinatra module to seamlessly integrate OpenCaptcha to Sinatra applications.
+A **Sinatra** extension to seamlessly integrate **OpenCaptcha** to Sinatra applications.
 
 See http://www.opencaptcha.com for more information about OpenCaptcha
 
 Installation
 ------------
 
-gem install sinatra-opencaptcha
+    gem install sinatra-opencaptcha
 
-Use example
------------
+Usage example
+-------------
 
     require 'sinatra'
     require 'sinatra/opencaptcha'
@@ -39,7 +39,7 @@ Use example
       <body>
         <form action="/" method="post">
           <p><label for=\"name\">My name: </label><input type="text" id="name" name="name"/></p>
-          <%= open_captcha :answer_input_label => 'Votre réponse*: ', :answer_input_class => 'text' %>
+          <%= open_captcha :answer_input_label => 'What do you read?: ', :answer_input_class => 'text' %>
           <p><input type="submit" value="Submit"/></p>
         </form>
       </body>
