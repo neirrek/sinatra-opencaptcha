@@ -9,8 +9,6 @@ module Sinatra
   # See: http://www.opencaptcha.com
   #
   module OpenCaptcha
-
-    VERSION = "1.0.0"
     
     @@default_opts = {
       :width => 110,
